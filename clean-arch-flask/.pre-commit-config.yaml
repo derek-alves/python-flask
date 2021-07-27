@@ -14,7 +14,7 @@ repos:
     hooks:
       - id: requirements
         name: requirements
-        entry: bash -c 'venv/bin/pip3 freeze > requirements.txt; git add requirements.txt'
+        entry: bash -c './clean-arch-flask/venv/bin/pip3 freeze > ./clean-arch-flask/requirements.txt; git add ./clean-arch-flask/requirements.txt'
         language: system
         pass_filenames: false
         stages: [commit]
