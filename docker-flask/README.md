@@ -66,7 +66,7 @@ Code 200 response syntax:
 }
 ```
 
-### Retorn default
+### Return default
 Endpoint: /
 Method: GET
 
